@@ -1,2 +1,1 @@
-for _,v in pairs(workspace.VIPWalls:GetDescendants()) do if v:IsA("BasePart") then v.CanCollide=false end end
-for _,v in pairs(workspace.VIPWalls:GetDescendants()) do if v:IsA("TouchTransmitter") then v:Destroy() end end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()
